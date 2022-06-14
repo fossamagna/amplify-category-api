@@ -608,6 +608,9 @@ $util.toJson({
 })
 ## [End] Subscription Request template. **",
   "Subscription.onCreateTest.res.vtl": "## [Start] Subscription Response template. **
+#if( !$util.isNullOrEmpty($ctx.args.filter) )
+$extensions.setSubscriptionFilter($util.transform.toSubscriptionFilter($ctx.args.filter))
+#end
 $util.toJson(null)
 ## [End] Subscription Response template. **",
   "Subscription.onDeleteTest.postAuth.1.req.vtl": "## [Start] Sandbox Mode Disabled. **
@@ -623,6 +626,9 @@ $util.toJson({
 })
 ## [End] Subscription Request template. **",
   "Subscription.onDeleteTest.res.vtl": "## [Start] Subscription Response template. **
+#if( !$util.isNullOrEmpty($ctx.args.filter) )
+$extensions.setSubscriptionFilter($util.transform.toSubscriptionFilter($ctx.args.filter))
+#end
 $util.toJson(null)
 ## [End] Subscription Response template. **",
   "Subscription.onUpdateTest.postAuth.1.req.vtl": "## [Start] Sandbox Mode Disabled. **
@@ -638,6 +644,9 @@ $util.toJson({
 })
 ## [End] Subscription Request template. **",
   "Subscription.onUpdateTest.res.vtl": "## [Start] Subscription Response template. **
+#if( !$util.isNullOrEmpty($ctx.args.filter) )
+$extensions.setSubscriptionFilter($util.transform.toSubscriptionFilter($ctx.args.filter))
+#end
 $util.toJson(null)
 ## [End] Subscription Response template. **",
 }
@@ -1191,6 +1200,9 @@ $util.toJson({
 })
 ## [End] Subscription Request template. **",
   "Subscription.onCreateTest.res.vtl": "## [Start] Subscription Response template. **
+#if( !$util.isNullOrEmpty($ctx.args.filter) )
+$extensions.setSubscriptionFilter($util.transform.toSubscriptionFilter($ctx.args.filter))
+#end
 $util.toJson(null)
 ## [End] Subscription Response template. **",
   "Subscription.onDeleteTest.postAuth.1.req.vtl": "## [Start] Sandbox Mode Disabled. **
@@ -1206,6 +1218,9 @@ $util.toJson({
 })
 ## [End] Subscription Request template. **",
   "Subscription.onDeleteTest.res.vtl": "## [Start] Subscription Response template. **
+#if( !$util.isNullOrEmpty($ctx.args.filter) )
+$extensions.setSubscriptionFilter($util.transform.toSubscriptionFilter($ctx.args.filter))
+#end
 $util.toJson(null)
 ## [End] Subscription Response template. **",
   "Subscription.onUpdateTest.postAuth.1.req.vtl": "## [Start] Sandbox Mode Disabled. **
@@ -1221,6 +1236,9 @@ $util.toJson({
 })
 ## [End] Subscription Request template. **",
   "Subscription.onUpdateTest.res.vtl": "## [Start] Subscription Response template. **
+#if( !$util.isNullOrEmpty($ctx.args.filter) )
+$extensions.setSubscriptionFilter($util.transform.toSubscriptionFilter($ctx.args.filter))
+#end
 $util.toJson(null)
 ## [End] Subscription Response template. **",
 }
@@ -1727,6 +1745,9 @@ $util.toJson({
 })
 ## [End] Subscription Request template. **",
   "Subscription.onCreateTest.res.vtl": "## [Start] Subscription Response template. **
+#if( !$util.isNullOrEmpty($ctx.args.filter) )
+$extensions.setSubscriptionFilter($util.transform.toSubscriptionFilter($ctx.args.filter))
+#end
 $util.toJson(null)
 ## [End] Subscription Response template. **",
   "Subscription.onDeleteTest.postAuth.1.req.vtl": "## [Start] Sandbox Mode Disabled. **
@@ -1742,6 +1763,9 @@ $util.toJson({
 })
 ## [End] Subscription Request template. **",
   "Subscription.onDeleteTest.res.vtl": "## [Start] Subscription Response template. **
+#if( !$util.isNullOrEmpty($ctx.args.filter) )
+$extensions.setSubscriptionFilter($util.transform.toSubscriptionFilter($ctx.args.filter))
+#end
 $util.toJson(null)
 ## [End] Subscription Response template. **",
   "Subscription.onUpdateTest.postAuth.1.req.vtl": "## [Start] Sandbox Mode Disabled. **
@@ -1757,6 +1781,9 @@ $util.toJson({
 })
 ## [End] Subscription Request template. **",
   "Subscription.onUpdateTest.res.vtl": "## [Start] Subscription Response template. **
+#if( !$util.isNullOrEmpty($ctx.args.filter) )
+$extensions.setSubscriptionFilter($util.transform.toSubscriptionFilter($ctx.args.filter))
+#end
 $util.toJson(null)
 ## [End] Subscription Response template. **",
 }
@@ -2310,6 +2337,9 @@ $util.toJson({
 })
 ## [End] Subscription Request template. **",
   "Subscription.onCreateTest.res.vtl": "## [Start] Subscription Response template. **
+#if( !$util.isNullOrEmpty($ctx.args.filter) )
+$extensions.setSubscriptionFilter($util.transform.toSubscriptionFilter($ctx.args.filter))
+#end
 $util.toJson(null)
 ## [End] Subscription Response template. **",
   "Subscription.onDeleteTest.postAuth.1.req.vtl": "## [Start] Sandbox Mode Disabled. **
@@ -2325,6 +2355,9 @@ $util.toJson({
 })
 ## [End] Subscription Request template. **",
   "Subscription.onDeleteTest.res.vtl": "## [Start] Subscription Response template. **
+#if( !$util.isNullOrEmpty($ctx.args.filter) )
+$extensions.setSubscriptionFilter($util.transform.toSubscriptionFilter($ctx.args.filter))
+#end
 $util.toJson(null)
 ## [End] Subscription Response template. **",
   "Subscription.onUpdateTest.postAuth.1.req.vtl": "## [Start] Sandbox Mode Disabled. **
@@ -2340,6 +2373,9 @@ $util.toJson({
 })
 ## [End] Subscription Request template. **",
   "Subscription.onUpdateTest.res.vtl": "## [Start] Subscription Response template. **
+#if( !$util.isNullOrEmpty($ctx.args.filter) )
+$extensions.setSubscriptionFilter($util.transform.toSubscriptionFilter($ctx.args.filter))
+#end
 $util.toJson(null)
 ## [End] Subscription Response template. **",
 }
@@ -2771,6 +2807,9 @@ $util.toJson({
 })
 ## [End] Subscription Request template. **",
   "Subscription.onCreateTest.res.vtl": "## [Start] Subscription Response template. **
+#if( !$util.isNullOrEmpty($ctx.args.filter) )
+$extensions.setSubscriptionFilter($util.transform.toSubscriptionFilter($ctx.args.filter))
+#end
 $util.toJson(null)
 ## [End] Subscription Response template. **",
   "Subscription.onDeleteTest.postAuth.1.req.vtl": "## [Start] Sandbox Mode Disabled. **
@@ -2786,6 +2825,9 @@ $util.toJson({
 })
 ## [End] Subscription Request template. **",
   "Subscription.onDeleteTest.res.vtl": "## [Start] Subscription Response template. **
+#if( !$util.isNullOrEmpty($ctx.args.filter) )
+$extensions.setSubscriptionFilter($util.transform.toSubscriptionFilter($ctx.args.filter))
+#end
 $util.toJson(null)
 ## [End] Subscription Response template. **",
   "Subscription.onUpdateTest.postAuth.1.req.vtl": "## [Start] Sandbox Mode Disabled. **
@@ -2801,6 +2843,9 @@ $util.toJson({
 })
 ## [End] Subscription Request template. **",
   "Subscription.onUpdateTest.res.vtl": "## [Start] Subscription Response template. **
+#if( !$util.isNullOrEmpty($ctx.args.filter) )
+$extensions.setSubscriptionFilter($util.transform.toSubscriptionFilter($ctx.args.filter))
+#end
 $util.toJson(null)
 ## [End] Subscription Response template. **",
 }
@@ -3354,6 +3399,9 @@ $util.toJson({
 })
 ## [End] Subscription Request template. **",
   "Subscription.onCreateTest.res.vtl": "## [Start] Subscription Response template. **
+#if( !$util.isNullOrEmpty($ctx.args.filter) )
+$extensions.setSubscriptionFilter($util.transform.toSubscriptionFilter($ctx.args.filter))
+#end
 $util.toJson(null)
 ## [End] Subscription Response template. **",
   "Subscription.onDeleteTest.postAuth.1.req.vtl": "## [Start] Sandbox Mode Disabled. **
@@ -3369,6 +3417,9 @@ $util.toJson({
 })
 ## [End] Subscription Request template. **",
   "Subscription.onDeleteTest.res.vtl": "## [Start] Subscription Response template. **
+#if( !$util.isNullOrEmpty($ctx.args.filter) )
+$extensions.setSubscriptionFilter($util.transform.toSubscriptionFilter($ctx.args.filter))
+#end
 $util.toJson(null)
 ## [End] Subscription Response template. **",
   "Subscription.onUpdateTest.postAuth.1.req.vtl": "## [Start] Sandbox Mode Disabled. **
@@ -3384,6 +3435,9 @@ $util.toJson({
 })
 ## [End] Subscription Request template. **",
   "Subscription.onUpdateTest.res.vtl": "## [Start] Subscription Response template. **
+#if( !$util.isNullOrEmpty($ctx.args.filter) )
+$extensions.setSubscriptionFilter($util.transform.toSubscriptionFilter($ctx.args.filter))
+#end
 $util.toJson(null)
 ## [End] Subscription Response template. **",
 }
